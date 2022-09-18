@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;300;400;500;600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
+body{
+	font-family: 'Red Hat Display', sans-serif;
+	}
+header{
+	background-color: #236A75;
+	padding: 10px 0;
+}
+
+#hero{	
+	z-index: 1;
+	/*background-image: url("../img/cozy-studio-apartment-with-bedroom-and-living-space.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20% 0;
+	text-align: center;*/
+}
+
+#hero-map{	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: -30px;
+	text-align: center;
+}
+
+#bienvenidos{
+	background-color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.titulo{
+	font-family: 'Abril Fatface', cursive;
+	color: #fdb740;
+	padding: 40px 0;
+	letter-spacing: 2px;
+}
+
+.titulo2{
+	font-family: 'Abril Fatface', cursive;
+	color: #236A75;
+	padding: 40px 0;
+	letter-spacing: 2px;
+}
+
+.titulo3{
+	font-family: 'Abril Fatface', cursive;
+	color: #236A75;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.titulo4{
+	font-family: 'Abril Fatface', cursive;
+	color: #236A75;
+	padding: 5px 0;
+	letter-spacing: 2px;text-align: right
+}
+
+.precio{
+	font-family: 'Abril Fatface', cursive;
+	color: #000;
+	letter-spacing: 2px;
+	text-align: right;
+}
+
+.precio2{
+	font-family: 'Red Hat Display', sans-serif;
+	color: #000;
+	letter-spacing: 2px;
+	text-align: right;
+	margin-bottom: 20%;
+}
+
+.texto{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 20px;
+	color: #595959;
+	letter-spacing: 1px;
+}
+
+.texto2{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+	color: #595959;
+	letter-spacing: 1px;
+}
+
+.texto-habitaciones{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+	color: #595959;
+	letter-spacing: 1px;
+}
+
+#servicios{
+	background-color: #dbdbdb;
+	padding: 40px;
+}
+
+#servicios h1{
+	font-family: 'Abril Fatface', cursive;
+	color: #236A75;
+}
+
+#galeria{
+	/*background-image: url("../img/hotel-room-interior-with-bedroom-area-living-space-and-kitchen.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 15% 0;
+	text-align: center;*/
+}
+
+#ver-galeria{
+	padding: 80px;
+	text-align: center;
+}
+
+.btn-galeia{
+	color: #FFFFFF;
+	background-color: #fdb740;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	font-weight: 250;
+	letter-spacing: 5;
+	border-radius: 15px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.btn-galeia:hover{
+	background-color: #fff;
+	color: #fdb740;
+	transition: all 0.4s ease-in-out;
+	border:1px solid #fdb740;
+}
+
+footer{
+	background-color: #236A75;
+	color: #fff;
+	align-content: center;
+	padding: 80px;
+}
+
+.titulo-footer{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#logo-footer{
+ 	background-image: url("../img/Adobe resort logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 150px 0;
+}
+
+.icon{
+	font-size: 20px;
+}
+
+.texto-hero{
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+#hero-eventos{
+	background-image: url("../img/pattern.png");
+	padding-top: 2% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+
+#hero-reservaciones{
+	background-image: url("../img/pattern.png");
+	padding-top: 2% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+#foto-reservaciones{
+	background-image: url("../img/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash (1).jpg");
+	padding-top: 2% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#salones{
+	padding: 20px 0;
+}
+
+.formulario{
+	background-color: #dbdbdb;
+}
+
+.btn-adoberesort{
+	background-color: #fdb740;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.formulario-2{
+	background-color: #dbdbdb;
+	text-align: center;
+}
+
+.condiciones{
+	text-align: center;
+	border-spacing: 3px;
+	padding: 30px;
+}
+
+
+
+#hero .carousel-caption{
+	z-index: 2;
+}
+
+.capa-absolute{
+	position: absolute;
+	top: 0;
+}
+
+.to-top{
+	background-color:  #fdb740;
+	color:  #B36D05;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	z-index: 100;
+}
+
+.to-top i{
+	color: #B36D05;
+	font-size: 60px;
+	
+}
+
+.to-top:hover{
+	background-color:  #FFD27F;
+	color:  #B36D05;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	z-index: 100;
+}
+
+#reservaciones{
+	border-radius: 10px;
+	padding: 20px;
+	left: 2.5%;
+	width: 95%;
+	/*position: sticky;*/	
+  	top: 20PX;
+	background-color:  #fff;
+	z-index: 100;
+}
+
+#hero-habitaciones{
+	background-image: url("../img/pattern.png");
+	padding-top: 2% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.habitaciones{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #E3E3E3;
+	
+}
+
+i{
+	font-size: 25px;	
+}
+
+.btn-habitaciones{
+	margin: 0 20px;
+	background-color: #fdb740;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.btn-habitaciones:hover{
+	background-color: #B36D05;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.btn-adoberesort:hover{
+	background-color: #B36D05;
+	color: #FFFFFF;
+	width:150px;
+	height:40px;
+	border-radius: 0%;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+#lugares-de-interes{
+	background-color: #dbdbdb;
+	margin-bottom: 60px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
+.marcos{
+	border-radius: 30px;
+	margin-top: 20px
+}
+
+img{
+	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
